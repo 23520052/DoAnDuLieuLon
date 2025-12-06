@@ -90,4 +90,4 @@ Dự án bao gồm thư mục `dataset/` chứa:
 * **Technique:** Google Translate API for Back-Translation.
 
 ---
-*Đồ án thực hiện bởi Mai Lan Anh*
+*Đồ án thực hiện bởi 23520052_MaiLanAnh*

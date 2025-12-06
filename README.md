@@ -67,7 +67,7 @@ Dự án được thiết kế để chạy hoàn toàn trên **Google Colab**.
 
 ### Bước 2: Huấn luyện mô hình
 * Chạy lần lượt sổ tay `1`, `2`, `3` để tái hiện quá trình huấn luyện.
-* Sau khi chạy xong sổ tay `3`, model sẽ được lưu tại Google Drive: `/content/drive/My Drive/ABSA_Project/Model_Final`.
+* Sau khi chạy xong sổ tay `3`, Model sẽ được tự động sinh ra khi chạy Sổ tay 3 và lưu vào Drive: `/content/drive/My Drive/ABSA_Project/Model_Final`.
 
 ### Bước 3: Chạy Web Demo (Streamlit)
 1.  Mở sổ tay `4_Demo_Application.ipynb`.

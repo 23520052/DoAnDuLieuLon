@@ -75,7 +75,13 @@ Dự án được thiết kế để chạy hoàn toàn trên **Google Colab**.
 3.  Dán Authtoken vào dòng code tương ứng trong sổ tay.
 4.  Chạy toàn bộ code (Run All).
 5.  Truy cập vào đường link `*.ngrok-free.app` được tạo ra để trải nghiệm App.
+   
+## 📂 Dữ liệu (Dataset)
+Dự án bao gồm thư mục `dataset/` chứa:
+* **Dữ liệu gốc VLSP 2018:** Dùng để chạy Baseline.
+* **Dữ liệu Back-Translation (`.csv`):** Dữ liệu đã được tăng cường, dùng để huấn luyện Final Model (giúp tiết kiệm thời gian tiền xử lý).
 
+> **Lưu ý:** Khi chạy trên Google Colab, vui lòng upload toàn bộ file trong thư mục `dataset` này vào thư mục dự án trên Google Drive của bạn.
 ---
 
 ## 📚 Tài liệu tham khảo
@@ -84,4 +90,4 @@ Dự án được thiết kế để chạy hoàn toàn trên **Google Colab**.
 * **Technique:** Google Translate API for Back-Translation.
 
 ---
-*Đồ án thực hiện bởi [Tên của bạn]*
+*Đồ án thực hiện bởi Mai Lan Anh*

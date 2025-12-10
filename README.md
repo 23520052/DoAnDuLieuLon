@@ -23,12 +23,12 @@ Dự án sử dụng bộ dữ liệu chuẩn **VLSP 2018** và mô hình ngôn 
 ## 📂 Cấu trúc dự án (Project Structure)
 Dự án được chia thành 4 Sổ tay (Notebooks) theo quy trình thực nghiệm khoa học:
 
-* **`1_EDA_Data_Preparation.ipynb`**:
+* **`1_Data_Analysis_and_EDA_Experiment.ipynb`**:
     * Phân tích khám phá dữ liệu (EDA).
     * Vẽ biểu đồ minh chứng sự mất cân bằng (Positive chiếm ~76%, Negative chỉ ~7%).
     * Thử nghiệm phương pháp EDA (Easy Data Augmentation) và đánh giá sơ bộ.
 
-* **`2_Baseline_Training.ipynb`**:
+* **`2_Baseline_Model_Training.ipynb`**:
     * Huấn luyện mô hình gốc (Baseline) trên dữ liệu mất cân bằng.
     * **Kết quả:** F1-Score và Recall của lớp Negative rất thấp (mô hình học vẹt theo lớp đa số).
 
@@ -37,7 +37,7 @@ Dự án được chia thành 4 Sổ tay (Notebooks) theo quy trình thực nghi
     * Huấn luyện lại mô hình PhoBERT trên dữ liệu đã cân bằng.
     * Lưu model (`Model_Final`) vào Google Drive.
 
-* **`4_Demo_Application.ipynb`**:
+* **`4_Demo_App.ipynb`**:
     * Ứng dụng Demo giao diện web sử dụng **Streamlit**.
     * Cho phép người dùng nhập câu bình luận và chọn khía cạnh để phân tích thời gian thực.
 
@@ -70,7 +70,7 @@ Dự án được thiết kế để chạy hoàn toàn trên **Google Colab**.
 * Sau khi chạy xong sổ tay `3`, Model sẽ được tự động sinh ra khi chạy Sổ tay 3 và lưu vào Drive: `/content/drive/My Drive/ABSA_Project/Model_Final`.
 
 ### Bước 3: Chạy Web Demo (Streamlit)
-1.  Mở sổ tay `4_Demo_Application.ipynb`.
+1.  Mở sổ tay `4_Demo_App.ipynb`.
 2.  Đăng ký tài khoản miễn phí tại [Ngrok Dashboard](https://dashboard.ngrok.com) để lấy **Authtoken**.
 3.  Dán Authtoken vào dòng code tương ứng trong sổ tay.
 4.  Chạy toàn bộ code (Run All).
